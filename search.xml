@@ -3,7 +3,7 @@
   <entry>
     <title>我为什么又开始写博客</title>
     <url>/2020/Why_I_Start_to_Write_Blog/</url>
-    <content><![CDATA[<p><img src="/images/write.jpg" alt=""></p>
+    <content><![CDATA[<p> <img src="/images/write.jpg" alt=""></p>
 <hr>
 <h1 id="我为什么又开始写博客"><a href="#我为什么又开始写博客" class="headerlink" title="我为什么又开始写博客"></a><strong>我为什么又开始写博客</strong></h1><p>从有这个想法，到实施，总共3天。</p>
 <p>花了1天的时间查询资料，1天的时间研究搭建个人网站，再花了1天的时间买域名改模板。</p>
@@ -28,7 +28,9 @@
         <category>杂七杂八</category>
       </categories>
       <tags>
-        <tag>bolg</tag>
+        <tag>blog</tag>
+        <tag>hexo</tag>
+        <tag>github</tag>
         <tag>日记</tag>
         <tag>随笔</tag>
       </tags>
