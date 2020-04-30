@@ -193,6 +193,26 @@
     </header>
   </article>
 
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-04-26T12:47:49+08:00"
+              content="2020-04-26">
+          04-26
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/TEST/" itemprop="url">
+            <span itemprop="name">test</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
     </div>
   </div>
   
@@ -266,7 +286,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -420,7 +440,7 @@
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick,mail';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
     });
@@ -430,7 +450,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       notify     : false,
       appId      : 'RC3fOcTxh21Vbt5eTwJEBIj6-9Nh9j0Va',
       appKey     : 'MellOOg7iPCD8o6Tr3kKkXmR',
-      placeholder: "Just go go",
+      placeholder: "Do you want leave a comment ？input this.",
       avatar     : 'mm',
       meta       : guest,
       pageSize   : '10' || 10,
