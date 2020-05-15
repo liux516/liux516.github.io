@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"liux1e.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts。这个世界的问题在于：聪明人充满疑惑，而傻子们坚信不疑。——罗素">
+<meta property="og:type" content="article">
+<meta property="og:title" content="上网的姿势">
+<meta property="og:url" content="http://liux1e.com/2020/Dangerous_Internet/index.html">
+<meta property="og:site_name" content="LiuX1e&#39;s Notes">
+<meta property="og:description" content="The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts。这个世界的问题在于：聪明人充满疑惑，而傻子们坚信不疑。——罗素">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://liux1e.com/images/internet.png">
+<meta property="article:published_time" content="2020-05-14T14:00:00.000Z">
+<meta property="article:modified_time" content="2020-05-15T15:51:08.508Z">
+<meta property="article:author" content="LiuX刘勰">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="Web">
+<meta property="article:tag" content="Internet">
+<meta property="article:tag" content="信息搜索">
+<meta property="article:tag" content="上网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://liux1e.com/images/internet.png">
+
+<link rel="canonical" href="http://liux1e.com/2020/Dangerous_Internet/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>上网的姿势 | LiuX1e's Notes</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">LiuX1e's Notes</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">刘勰的写字台</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://liux1e.com/2020/Dangerous_Internet/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.png">
+      <meta itemprop="name" content="LiuX刘勰">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LiuX1e's Notes">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          上网的姿势
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-14 22:00:00" itemprop="dateCreated datePublished" datetime="2020-05-14T22:00:00+08:00">2020-05-14</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%90%9C%E5%95%86/" itemprop="url" rel="index"><span itemprop="name">搜商</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/Dangerous_Internet/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/Dangerous_Internet/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>3.7k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>3 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p> <img src="/images/internet.png" alt=""></p>
+<p>The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts。这个世界的问题在于：聪明人充满疑惑，而傻子们坚信不疑。——罗素</p>
+<a id="more"></a>
+
+<br/>
+
+<p>很早就有比较强的欲望po一篇关于上网的文章，尤其是在今年疫情期间随手在手机便签有记录一些零散的想法，今天得空把它整理出来。</p>
+<h2 id="1，信息搜索能力是每个人最重要的基础能力之一。"><a href="#1，信息搜索能力是每个人最重要的基础能力之一。" class="headerlink" title="1，信息搜索能力是每个人最重要的基础能力之一。"></a>1，信息搜索能力是每个人最重要的基础能力之一。</h2><p>我们处于一个信息爆炸的时代。尤其是第二代第三代UGC平台的据崛起，HTML到Video的浪潮，移动互联网的普及，上网门槛的降低，互联网每天产生的信息都是以指数级增长。当我们尝试去了解一件事的时候，一方面获得了前所未有的知情权利，尤其是热点事件，你可以轻而易举非常迅速的获取海量的信息，都不用你主动搜索，众多的信息分发商就迅速的讲各种消息推送到你的面前；然而另一方面，带来更大的挑战，每个人都在发声，那么你分不清真假，裹挟着各种臆测、谣言、偏见、卖弄乃至抹黑，嘈杂的声音犹如菜市场，你竟无从看起。官媒大V当然掌握着舆论的话语权，在这个舞台的中央轮流抢着话筒指点江山，而你只能傻傻站在台下望着他们的表演。最后就往往在各路大V的引领下，演变成几帮人的撕逼论战。《乌合之众》的调调已经被说烂了，不再赘述。</p>
+<p>每个人都在讲独立思考，然而具体的路径呢？方式方法呢？要思考就要有原料，输入的步骤就尤为重要。如何拨清迷雾，找到真实可靠的信息，综合分析得到基本的事实，搜索信息的能力就是尤为关键的第一步，信息搜索和分析能力越来越成为每个人必备的基础能力。相信我，<strong>信息搜索的能力，犹如盲人的拐杖，</strong>在未来的互联网生活中再怎么强调也不为过。我后续将专门整理一些技法类的文章。</p>
+<h2 id="2，请分清事实与观点。"><a href="#2，请分清事实与观点。" class="headerlink" title="2，请分清事实与观点。"></a>2，请分清事实与观点。</h2><p>这个回答已经非常清晰，<em><a href="https://zhuanlan.zhihu.com/p/126175818" target="_blank" rel="noopener">谈“事实”与“观点”的区分 - Andy Lee的文章 - 知乎</a></em></p>
+<p>当我们在接受信息的时候，首先要区分的就是区分事实和观点。并且要理解一点：</p>
+<blockquote>
+<p>每个人在描述一个事实的时候，其本身“对事实的描述”也不是事实。不管用英语描述，还是用汉语描述，只要试图用语言描述事实，那我们得到的是就是“描述事实的语句”，而不是事实本身。</p>
+</blockquote>
+<p>所以下次看见大V或媒体在转发一个新闻的时候，别忙着屁股决定脑袋，首先要问下，大V的屁股在哪边，每个人都在或多或少立场决定看法，屁股决定脑袋，有没有可能有意无意的遗漏或者歪曲事实，这也是知乎流行的“利益相关声明”的背后意义。<strong>通过对发言者的动机和立场揣测是获取进阶信息的第一步</strong>。只有对比不同的事实的描述，才能逼近事实的原貌。</p>
+<h2 id="3、尽可能到信息的源头去追寻。"><a href="#3、尽可能到信息的源头去追寻。" class="headerlink" title="3、尽可能到信息的源头去追寻。"></a><strong>3、尽可能到信息的源头</strong>去追寻。</h2><p>在我读大学的时候，常年泡校内(人人)，当时就有个很热的概念叫“信息人体蜈蚣”，说的就是信息再传播过程中的消化-排泄-消化-排泄的过程，一旦有个有趣的图片或视频，从Facebook、YouTube传播到国内的微博、豆瓣，再转发到人人，QQZone最后到达朋友圈。过了那么多年，其实这条蜈蚣依然如此。</p>
+<p>如果我们要系统性去学一门知识，那么我们最好的办法，是教科书，去MOOC上课，想简单的了解就可以是B站的视频教学。<strong>信息传播和知识传递一定会依次衰减乃至歪曲，所以尽可能到信息的源头获取。</strong> 我发现尤其是港台的废青们，经常一个新闻出来就是“懒人包video”普天盖地转发，某种程度上也是一种“弱智”的体现。</p>
+<h2 id="4、接受任何信息之前都应持怀疑态度。"><a href="#4、接受任何信息之前都应持怀疑态度。" class="headerlink" title="4、接受任何信息之前都应持怀疑态度。"></a>4、接受任何信息之前都应持怀疑态度。</h2><p>质疑，是每个独立思考的人思考问题的第一步。不经过核实就无脑转发，这个现象可不仅仅是在于长辈们的朋友圈。很多大V、媒体乃至官媒，都会犯这样的毛病，一个似是而非的事情，几个焦点错误的组合，那么经过几次转发之后就可能会有鼻子有眼。我们必须保留对任何接受的信息，保持质疑的态度。</p>
+<p>哪怕是比如央视，可以推测应有着比较强的复查机制，所以它可能一般不会错，但是它有可能选择性遗漏一些元素，而失去的信息可能就是一些了解事物全貌的关键信息拼图。<strong>对于官媒的报道，不仅要看说了什么，更重要的是还要看没说什么。</strong>而对于一般的大V，选择性的误导，有意无意的“春秋笔法”，那都是传统必备技能了。</p>
+<h2 id="5、打破自己的信息茧房。"><a href="#5、打破自己的信息茧房。" class="headerlink" title="5、打破自己的信息茧房。"></a>5、打破自己的信息茧房。</h2><p>多年之前张一鸣刚推出[今日头条]的时候，有用过一段时间，然后一周之后就卸载再也没有用过，因为太可怕了。<strong>BT系耐以起家的本事，就是心流(mental flow)的操纵，抖音只是这种思路的集大成者。</strong>为了让你能够多看一会，Time on Page、Time on Site的KPI能够达成，强大的推荐机制会让你留恋往返。你每天能够接受的信息，都是你喜欢看的类型，甚至是你偏好的观点派系，你关心汽车就天天推送汽车，你喜欢看美女就全是大胸美腿，可能还会避免你厌烦穿插一些其他的吸引你的兴趣。我确信头条的产品经理会有专业的心理学家在一遍指导，而拿着手机的我们，就是一个个被研究被无形操控的小白鼠。</p>
+<p>更为重要的是另一方面，每个人的成长经历决定了三观，大部分人的思想几乎在20多岁的时候有个基本定型，而视野决定了你观察事物的高度。那么<strong>每个人在获取信息的时候，本能就有一个筛子挂在了我们的面前，我们看到的听到的已经悄无声息过滤，每个人都被这个无形的信息茧房包围。</strong>突然想到“左耳进右耳出”？</p>
+<p>平台的“智能推送”，加上自己的“有色眼镜”，形成坚不可摧的“信息茧房”，威力惊人。<strong>每个人都只愿相信自己愿意相信的东西。</strong>所以不要说为什么别人的想法跟你不一样，为什么别人不理解你的想法。这个再正常不过了。打破自己的信息茧房真的非常重要。保持开发的心态，了解不同的人的看法，就能避免盲人摸象的困境，<strong>多角度的观点综合起来往往接近事情的真实状况</strong>。</p>
+<h2 id="6、管理好自己的发言。"><a href="#6、管理好自己的发言。" class="headerlink" title="6、管理好自己的发言。"></a>6、管理好自己的发言。</h2><p>读书的时候喜欢跟别人争论，试图去改变别人的想法，然而随着阅历的增加，会慢慢发现，你连改变自己都是如此的困难，怎么可能要求别人轻易能够赞同你。大学室友的口头禅就是“我不赞同你的傻逼言论，但是我誓死捍卫你说傻逼言论的权利。”后来想想话糙理不糙，这个世界上什么人都有，这个世界上的事情也不是非黑即白，<strong>人与人之前的沟通鸿沟是如此的难以跨越，本质是认知的差异，试图去改变别人只能碰一鼻子灰。</strong></p>
+<p>平台的沦落是大趋势，随着互联网的门槛一步步降低，所有的平台都在不可避免的走向庸俗。快手、抖音迅速占领市场，将剩下被互联网抛弃的人们赶紧拉上车，让所有人能够享受信息平等，这个倒不是坏事，90年代初代网民需要懂的知识，远大于今天动动手指头上下滑动。</p>
+<p>曾经的天涯也是大神云集，曾经的微博也是一片祥和，曾经的知乎也纯粹的专业知识社区(当然现在也是唯一，不过没那么纯粹)，B站也在破圈早就不是单纯的ACG。这个太容易理解，人以群分，物以类聚。小众的平台最开始聚集的一定是志趣相投的，而平台的流量扩大，当所有人都进来的时候，那平台就不是原来的平台了。而如果平台一直不变大的话会怎样？那就无法获得融资，背后是资本的游戏。豆瓣可能是唯一的例外，当然豆瓣至今也没赚钱。</p>
+<p><strong>互联网无时无刻不在激发人的表现欲。</strong>然而和股市一样追涨杀跌是本性，热点事件的过度反应也是人的本性。理智和逻辑并不是真理，常常无法战胜情绪。我给自己设一个提醒，那么就是：</p>
+<blockquote>
+<p>不要争论，不要争论，不要争论。</p>
+</blockquote>
+<h2 id="7、基本的价值观。"><a href="#7、基本的价值观。" class="headerlink" title="7、基本的价值观。"></a>7、基本的价值观。</h2><p>你对事物的看法(人生观、世界观、价值观)决定了你是什么样的人，对事情的认知都会涉及基础的价值判断。百年前先辈们的口号到现在仍然不过时，<strong>德先生和赛先生仍然十分稀缺，是每个人需要具备的基本价值观。</strong></p>
+<p>大部分人并没有基础的科学素养，其实这与有没有经过社会化的教育(有没有学历)，有没有经过系统的科研训练(理工专业研究)，都没有直接的关系。自学成才的人数不胜数，一个人可以不上学，全凭看书和上网也可以形成基础的认知、理性的思考习惯，而懒于学习的人才会冥顽不灵。</p>
+<p>这里<strong>所谓的科学素养，一方面是有基本的是非判断，另外最就是要尊重专业。</strong>人类的发展近两百年突飞猛进，就是科技的大爆炸带来的结果。人类的科技大厦已经建得如此恢弘，一个人穷极一生也不可能全然了解哪怕一个再小的细分领域，只有少许的天才能够带领人类拓展到从未到过的地方。<strong>所以，很多事情在还没搞清楚前千万不要对自己不专业的领域指手画脚。</strong>对于个人而言，不需要研究多么深入，能够理解现代科学体系的精神即可。具体而言就是相信科学，这句话知易行难，原因是如何区别伪科学。因为相对于社会科学而言，自然科学简直单纯的幼稚。人类的社会属性又是如此复杂，掺杂太多利益，普通人应该需要学会去伪存真。</p>
+<p>如果还是不能甄别，那么<strong>多关注下真正聪明的人怎么说。</strong>舆论场上太多浑水摸鱼的江湖贩子，也太多聪明的人。有的聪明的人入了歪道，设计一个个精巧的圈套以此牟利。说起来很悲哀，聪明的人愚弄愚笨的人而非教导，这是人类社会从古自今的常态。但是真正聪明的人，或者我应该用“聪慧”，一定是正直的，善良的，强大的，正是这些人，照亮人类前进的道路。<strong>精准预言未来是一件上帝才能做的事，但是基于事实、数据、发展规律能做最大概率预测。</strong>我们能够从真正聪明的人那里学到太多。</p>
+<br/>
+
+<p>这篇文章顺便送给自己，勉励我上网不做神棍，多思少说。</p>
+<br/>
+
+<p><em>天，我竟然不知觉写了那么冗长，后面的文章尽可能控制在1500字。</em></p>
+<br/>
+
+<hr>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/blog/" rel="tag"><i class="fa fa-tag"></i> blog</a>
+              <a href="/tags/Web/" rel="tag"><i class="fa fa-tag"></i> Web</a>
+              <a href="/tags/Internet/" rel="tag"><i class="fa fa-tag"></i> Internet</a>
+              <a href="/tags/%E4%BF%A1%E6%81%AF%E6%90%9C%E7%B4%A2/" rel="tag"><i class="fa fa-tag"></i> 信息搜索</a>
+              <a href="/tags/%E4%B8%8A%E7%BD%91/" rel="tag"><i class="fa fa-tag"></i> 上网</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/Book_list/" rel="prev" title="书单">
+      <i class="fa fa-chevron-left"></i> 书单
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1，信息搜索能力是每个人最重要的基础能力之一。"><span class="nav-number">1.</span> <span class="nav-text">1，信息搜索能力是每个人最重要的基础能力之一。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2，请分清事实与观点。"><span class="nav-number">2.</span> <span class="nav-text">2，请分清事实与观点。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、尽可能到信息的源头去追寻。"><span class="nav-number">3.</span> <span class="nav-text">3、尽可能到信息的源头去追寻。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4、接受任何信息之前都应持怀疑态度。"><span class="nav-number">4.</span> <span class="nav-text">4、接受任何信息之前都应持怀疑态度。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5、打破自己的信息茧房。"><span class="nav-number">5.</span> <span class="nav-text">5、打破自己的信息茧房。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6、管理好自己的发言。"><span class="nav-number">6.</span> <span class="nav-text">6、管理好自己的发言。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7、基本的价值观。"><span class="nav-number">7.</span> <span class="nav-text">7、基本的价值观。</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="LiuX刘勰"
+      src="/images/header.png">
+  <p class="site-author-name" itemprop="name">LiuX刘勰</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/liux516" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;liux516" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:liux516@gmail.com" title="E-Mail → mailto:liux516@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/u/1703340383" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;1703340383" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.yourname.com/about/" title="Weixin → https:&#x2F;&#x2F;www.yourname.com&#x2F;about&#x2F;" rel="noopener" target="_blank"><i class="fab fa-weixin fa-fw"></i>Weixin</a>
+      </span>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">LiuX刘勰</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="Symbols count total">11k</span>
+
+  
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'RC3fOcTxh21Vbt5eTwJEBIj6-9Nh9j0Va',
+      appKey     : 'MellOOg7iPCD8o6Tr3kKkXmR',
+      placeholder: "Do you want leave a comment ？input this.",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+  
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+  
+</body>
+</html>
