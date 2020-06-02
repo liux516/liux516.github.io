@@ -1,0 +1,23 @@
+.posts-expand .post-meta {
+  margin: 20px 0 20px 0;
+}
+.power.txt-right {
+  display: none;
+}
+.vsys {
+  display: none !important;
+}
+.post-comments-count {
+  display: none;
+}
+div#comments.comments.v {
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 0px;
+}
+#comments .vsys {
+  display: none;
+}
+.post-toc .nav .nav-level-1>.nav-child {
+  display: block;
+}

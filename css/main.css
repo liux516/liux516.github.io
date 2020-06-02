@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6e09ff;
+  background: #ffdfff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1325,7 +1325,7 @@ pre .javascript .function {
   white-space: nowrap;
 }
 .post-toc .nav .nav-child {
-  display: none;
+  display: block;
 }
 .post-toc .nav .active > .nav-child {
   display: block;
@@ -2586,6 +2586,29 @@ ul.breadcrumb li + li:last-child {
 }
 .post-comments-count {
   display: none;
+}
+#comments .vsys {
+  display: none;
+}
+.post-toc .nav .nav-level-1>.nav-child {
+  display: block;
+}
+.posts-expand .post-meta {
+  margin: 20px 0 20px 0;
+}
+.power.txt-right {
+  display: none;
+}
+.vsys {
+  display: none !important;
+}
+.post-comments-count {
+  display: none;
+}
+div#comments.comments.v {
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 0px;
 }
 #comments .vsys {
   display: none;
